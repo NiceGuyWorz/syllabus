@@ -1,5 +1,7 @@
-# Debes completar esta función para que retorne la información de los ayudantes
-def cargar_datos(path):
+from collections import namedtuple, defaultdict
+
+ayudantes = open('ayudantes.csv', 'r', encoding="utf-8")
+def cargar_datos(ayudantes):
     return None
 
 
